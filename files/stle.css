@@ -1,0 +1,35 @@
+.body{
+  background: rgb(0,0,0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; /* Grey text */
+  width: 20%; /* Full width */
+  padding: 10px; /* Some padding */
+}
+#con {
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+  padding: 10px; /* Some padding */
+  text-align: center;
+}
+.con{
+  color: #f1f1f1; /* Grey text */
+  width: 60%; /* Full width */
+  padding: 10px; /* Some padding */
+  text-align: center;
+}
+.p1 {background-color:rgba(0, 0, 0, 0.5);opacity:1;}
+.clur{
+  color:rgb(255, 0, 0);opacity:0.8;
+}
+/*for change in screen size*/
+@media only screen and (max-width:960px){
+  .body{
+    color:green;
+  }
+}
+@media only screen and (max-width:720px){
+  .p1 {
+    background-color:blue;
+    opacity:0.2; 
+  }
+}

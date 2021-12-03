@@ -1,0 +1,23 @@
+.header{
+  background-color:darkblue;
+  text-align:center;
+  color:white;
+  padding-bottom:10px
+
+}
+.footer{
+  background-color:lightblue;
+  padding:10px;
+  text-align:center;
+  color:darktblue;
+}
+div.middle{
+  background-color:#910d0d;
+  text-align:center;
+  height:150px;
+  width:auto;
+  /*float:left;*/
+  padding:15px;
+  margin:20px;
+
+}

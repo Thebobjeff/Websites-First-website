@@ -1,0 +1,26 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+}
+.bg-image {
+  /* The image used */
+  background-image: url("Akatsuki.jfif");
+}
+/* Style the video: 100% width and height to cover the entire window */
+.myvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
